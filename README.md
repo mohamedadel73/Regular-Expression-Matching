@@ -1,4 +1,4 @@
-# Regular Expression Matching (Naive & Dynamic Programming)
+# Regular Expression Matching (Naive(Algorithm 1) & Dynamic Programming(Algorithm 2))
 
 This project implements **regular expression matching** from scratch in **C#**, without using built-in regex libraries.  
 The matcher supports the operators:
