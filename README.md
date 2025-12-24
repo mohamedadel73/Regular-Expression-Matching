@@ -11,7 +11,7 @@ The repository contains **two implementations**:
 
 ---
 
-##  Features
+## Features
 
 - Works with patterns containing `.` and `*`
 - Handles edge cases like empty strings and empty patterns
@@ -20,7 +20,7 @@ The repository contains **two implementations**:
 
 ---
 
-##  Examples
+## Examples
 
 | Text | Pattern | Match? | Reason |
 |-------|---------|--------|--------|
@@ -31,3 +31,31 @@ The repository contains **two implementations**:
 | `mississippi` | `mis*is*p*.` | ❌ | last pattern `.` fails |
 
 ---
+## Naive vs Dynamic Programming
+
+| Approach | Time Complexity | Notes |
+|----------|----------------|-------|
+| **Naive recursion** | Exponential | Simple but slow with many `*` |
+| **Dynamic Programming** | `O(m * n)` | Much faster, avoids repeated work |
+
+---
+
+## What I Learned
+
+- How regex engines match patterns under the hood  
+- The difference between backtracking and dynamic programming  
+- Why optimization matters for patterns with many repetitions  
+
+---
+
+## Future Improvements
+
+- Add support for `+`, `?`, `[]`, `|` operators  
+- Visualize DP table for debugging  
+- Convert to NFA/DFA engine later  
+
+---
+
+##  Contributing
+
+Pull requests and issues are welcome!
